@@ -1,0 +1,24 @@
+{
+  "name": "cy-ts",
+  "version": "1.0.0",
+  "description": "Sample project to experiment with Cypress & TypeScript for testing the Typeform web app.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "Cypress.io",
+    "Talking About Testing",
+    "Typeform",
+    "TypeScript",
+    "Modern Web Testing"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/faker": "^5.5.9",
+    "cypress": "^9.2.0",
+    "faker": "^5.5.3",
+    "typescript": "^4.5.4"
+  }
+}

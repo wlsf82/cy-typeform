@@ -18,5 +18,5 @@ Cypress.Commands.add('login', () => {
     .type(Cypress.env('password'), { log: false })
   cy.get('[data-qa="button-submit"]')
     .click()
-  cy.url().should('contain','/workspaces/')
+  cy.url({ timeout: 10000 }).should('contain','/workspaces/')
 })
